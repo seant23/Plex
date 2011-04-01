@@ -1,0 +1,12 @@
+# -------------------------------------------------------------------------
+# Database Account Information
+# -------------------------------------------------------------------------
+# This file lets you configure your database accounts and drivers
+#
+
+DB_DEFAULT:
+  driver:pgsql
+  host:localhost
+  user:conn
+  pass:yourloan
+  database:connect

@@ -1,0 +1,14 @@
+# -------------------------------------------------------------------------
+# Application Information
+# -------------------------------------------------------------------------
+# This file lets you configure custom configs for your plex application
+# 
+
+name: Awesome App
+version : 1.0
+
+auto-includes:
+  - lib.DB
+  
+preload-plugins :
+  - LoanPro_Encrypt

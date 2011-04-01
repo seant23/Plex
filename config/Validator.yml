@@ -1,0 +1,31 @@
+# -------------------------------------------------------------------------
+# Validator Config
+# -------------------------------------------------------------------------
+# This file lets you customize the error messages for Conrad errors
+#
+# all erros contain the following drop-in varibles
+#	- %key%		<< 
+#	- %alias%	<< if no alias is defined the key will be used in its place
+#	- %min%		<< var min length
+#	- %length%	<< var length
+#	- %value%	<< var value
+#	- %max%		<< var max
+#	- %default%	<< default
+#
+
+default_config : 
+  min: null
+  max: null
+  email: false
+  numbers_only: false
+  no_zero: false
+  required: true
+  alias: null
+
+min_fail : %alias% Requires At Least %min% Characters
+max_fail : %alias% Is Too Logn, Maximum %max% Characters
+required_fail : %alias% Is Required
+email_fail : %alias% Is Invalid
+numbers_fail : %alias% Must Only Contain Numbers
+
+

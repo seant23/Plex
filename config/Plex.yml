@@ -1,0 +1,53 @@
+# -------------------------------------------------------------------------
+# PLEX
+# -------------------------------------------------------------------------
+# This file lets you customize your plex
+
+#Plex Name
+name: Plex
+
+#Version Name
+version_name : Little One
+
+#Plex Version
+version : 0.1
+
+#Plex Build Number
+build : 4
+
+# -------------------------------------------------------------------------
+# PLEX - Core Directories
+# -------------------------------------------------------------------------
+
+#Directory Views Are Located In
+view_dir : view
+
+# -------------------------------------------------------------------------
+# PLEX - Routing Defaults
+# -------------------------------------------------------------------------
+
+#Default Controller
+main_controller : Main
+
+#Default Controller
+main_method : index
+
+#Use Shorthand Syntax Even If INI Is Set To False
+rewrite_short_tags : true
+
+# -------------------------------------------------------------------------
+# PLEX - Error Handling
+# -------------------------------------------------------------------------
+
+error_display_threshold : E_USER_NOTICE
+error_log_threshold : E_STRICT
+
+# -------------------------------------------------------------------------
+# PLEX - Log Settings
+# -------------------------------------------------------------------------
+
+#Directory Log Output To
+log_dir : log
+
+#Date Format
+log_date_format : F j, Y, g:i a

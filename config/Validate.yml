@@ -1,0 +1,20 @@
+# -------------------------------------------------------------------------
+# Input Config
+# -------------------------------------------------------------------------
+# This file lets you customize the error messages for Input errors
+#
+# all erros contain the following drop-in varibles
+#	- %key%		<< 
+#	- %alias%	<< if no alias is defined the key will be used in its place
+#	- %min%		<< var min length
+#	- %max%		<< var max
+#	- %length%	<< var length
+#	- %value%	<< var value
+#	- %default%	<< default
+#
+
+min_fail : %alias% Requires At Least %min% Characters
+max_fail : %alias% Is Too Logn, Maximum %max% Characters
+required_fail : %alias% Is Required
+email_fail : %alias% Is Invalid
+numbers_fail : %alias% Must Only Contain Numbers

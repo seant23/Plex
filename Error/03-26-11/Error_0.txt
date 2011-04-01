@@ -1,0 +1,54 @@
+Array
+(
+    [severity] => 2
+    [message] => include_once(Employee.php): failed to open stream: No such file or directory
+    [file] => /var/www/html/vhosts/Plex/Plex.php
+    [line] => 24
+    [backtraces] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/vhosts/Plex/Plex.php
+                    [line] => 24
+                    [function] => autoloadPlex
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/vhosts/Plex/Plex.php
+                    [line] => 57
+                    [function] => autoloadPlex
+                    [args] => Array
+                        (
+                            [0] => Plex\Employee
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/vhosts/Plex/Plex.php
+                    [line] => 114
+                    [function] => __autoLoad
+                    [args] => Array
+                        (
+                            [0] => Plex\Employee
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/vhosts/Plex/index.php
+                    [line] => 3
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/vhosts/Plex/Plex.php
+                        )
+
+                    [function] => include
+                )
+
+        )
+
+)

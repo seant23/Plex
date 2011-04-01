@@ -1,0 +1,26 @@
+# Client Errors 100-200
+100 : No Post Data Included
+101 : Clients Request Did Not Pass Schema Validation
+102 : Clients Requst Has Bad XML Syntax
+150 : Permission Denined For User - No Such User
+151 : Permission Denined For User - Incorrect Password
+152 : Permission Denined For User - Invalid Host
+
+# Method Errors 200-300
+200 : No Such Method
+201 : Incorrect Number Of Parameters
+202 : Method Did Not Return And Value
+
+# PHP-Specific Errors 300-400
+300 : Un Recognized PHP Variable Type
+
+# Server Errors 400-500
+400 : Server Did Not Respond
+401 : Servers Response Did Not Pass Schema Validation
+402 : Servers Response Has Bad XML Syntax
+
+
+# System Class Errors 500-750
+500 : Class Not Found
+501 : Method Not Found
+502 : Method Not Callable

@@ -1,0 +1,26 @@
+# -------------------------------------------------------------------------:
+# Database Account Information:
+# -------------------------------------------------------------------------:
+# This file lets you configure your database accounts and drivers:
+#
+#
+#
+# Example...
+#
+# DB_DEFAULT:
+#   table_name:
+#     add:create_tableName
+#     update:generate
+#     Web_Service
+#       Create:true
+#       Update:true
+#       Search:true
+
+DB_DEFAULT:
+  admin_company: 
+   add:generate
+   update:generate
+   Web_Service:
+     Create:true
+     Update:true
+     Search:true 
